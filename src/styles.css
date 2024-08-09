@@ -1,0 +1,147 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.navbar {
+  background-color: #cfd3d7;
+}
+.navbar ul {
+  align-items: center;
+  justify-content: center;
+}
+.navbar ul li {
+  text-align: center;
+  margin: 15px;
+  cursor: pointer;
+}
+.navbar ul li a {
+  color: black;
+}
+.navbar-custom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.navbar-custom .navbar-brand {
+  flex-grow: 1;
+  text-align: center;
+}
+.navbar-custom .btn-signup {
+  position: absolute;
+  left: 0;
+  margin-left: 15px;
+}
+.navflex {
+  margin: 10px;
+}
+
+.fas {
+  color: #074da2;
+}
+
+/*Hero*/
+.hero {
+  background-color: #cfd3d7;
+}
+.hero .row {
+  display: flex;
+  align-items: center;
+}
+.custom-width {
+  width: 793px;
+  height: 174px;
+  gap: 32px;
+}
+.custom-width > span > p {
+  font-weight: 700;
+  font-size: 72px;
+  line-height: 87.14px;
+  font-family: Inter;
+  color: #074da2;
+}
+
+/*Foreign*/
+.foreign {
+  background-color: white;
+}
+.foreign img {
+  align-items: center;
+  justify-content: center;
+}
+.foreign .container > img {
+  width: 100%;
+}
+
+.feauturesimg {
+  width: 100%;
+}
+.virtualimg {
+  width: 100%;
+}
+
+.discoverimg {
+  width: 100%;
+}
+
+.simplifyimg {
+  width: 100%;
+}
+.faqimg {
+  width: 100%;
+}
+.footerimg {
+  width: 100%;
+}
+
+/*faq*/
+/* styles.css */
+.faq-section {
+  padding: 20px;
+}
+
+.faq-section h1 {
+  text-align: center;
+  margin: 50px;
+}
+
+.faq-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.flex-container {
+  display: flex; 
+  align-items: center; 
+  justify-content: space-between;
+  padding: 40px; 
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  border-left: none;
+  border-right: none;
+  cursor: pointer;
+}
+
+.text {
+  margin: 0; 
+  font-size: 16px; 
+  flex: 1;
+}
+
+.plus-icon {
+  font-size: 20px;
+  cursor: pointer; 
+  margin-left: 10px;
+}
+
+.faq-content {
+  display: none; 
+  padding: 10px;
+  border-bottom: 1px solid black;
+}
+
+.faq-content.open {
+  display: block; 
+  transition: max-height 0.3s ease-out;
+  overflow: hidden; 
+}
